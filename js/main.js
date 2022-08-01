@@ -1,5 +1,7 @@
+"use strict"
 let cancion = prompt("¿Acordes de que canción quieres saber? A,B,C,D. Si quieres salir escribir ESC");
 
+function acordes(){
 while(cancion != "ESC"){
     switch(cancion){
         case "A":
@@ -23,9 +25,19 @@ while(cancion != "ESC"){
             break;   
     
     }
-    cancion = prompt("¿Acordes de que canción quieres saber? A,B,C,D");
+    cancion = prompt("¿Quieres saber el acorde de otra cancion? A,B,C,D. Si quieres salir escribir ESC")
+    break;
+
+
 }
 
+}
 
+function datosCancion(cancion){
+    let nombreArtista = console.log("El artista es Fulano");
+    let anoCancion = console.log("Fue publicado en xxxx");
+    let instrumentos = console.log("Los instrumentos usados son : Guitarra, Bajo y Bateria")
 
+    
 
+}
